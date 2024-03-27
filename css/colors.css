@@ -1,0 +1,15 @@
+:root {
+  /* text */
+  --tdark: rgba(64, 63, 61, 1);
+  --tlight: rgba(225, 212, 201, 1);
+  --taccent: rgba(176, 144, 122, 1);
+
+  /* background */
+  --bgbody: rgba(225, 212, 201, 1);
+  --bgcontainer: rgba(102, 95, 85, 1);
+  --bgbackdrop: rgba(64, 63, 61, 0.8);
+
+  /* border */
+  --brdlight: rgba(193, 182, 173, 1);
+  --brddark: rgba(102, 95, 85, 1);
+}

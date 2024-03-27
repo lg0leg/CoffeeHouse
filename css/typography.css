@@ -1,0 +1,71 @@
+.h1 {
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 105%;
+
+  &.accent {
+    font-style: italic;
+  }
+}
+
+.h2 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 125%;
+  &.accent {
+    font-style: italic;
+  }
+}
+
+.h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 125%;
+}
+
+.tmedium {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.tcaption {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.tlink {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.tburger {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 125%;
+}
+
+/*mobile*/
+
+@media (width < 768px) {
+  .h1 {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 115%;
+
+    &.accent {
+      font-style: italic;
+    }
+  }
+
+  .h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 125%;
+    &.accent {
+      font-style: italic;
+    }
+  }
+}

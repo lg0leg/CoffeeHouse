@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoffeeHouse - Home</title>
+  <link rel="icon" href="./assets/favicon/favicon.ico">
+  <link href="https://fonts.cdnfonts.com/css/inter?styles=29139,29140,29141" rel="stylesheet">
+  <link rel="stylesheet" href="./css/home.css">
+</head>
+
+<body class="body" id="body">
+  <header class="header">
+    <div class="container header__container">
+      <img src="./assets/svg/logoSm.svg" alt="coffee house logo" class="logo" width="100" height="60">
+      <nav class="nav hidden" id="nav">
+        <ul class="nav__list">
+          <li class="nav__item underline underline_dark"><a href="#favorite" class="nav__link tlink">Favorite coffee</a>
+          </li>
+          <li class="nav__item underline underline_dark"><a href="#about" class="nav__link tlink">About</a></li>
+          <li class="nav__item underline underline_dark"><a href="#mobile-app" class="nav__link tlink">Mobile app</a>
+          </li>
+          <li class="nav__item underline underline_dark"><a href="#footer" class="nav__link tlink">Contact us</a></li>
+        </ul>
+      </nav>
+      <a class="header__menu-link-wrap hidden" id="header-menu-link" href="./menu.html">
+        <div class="header__menu-link underline underline_dark">
+          <p class="header__menu-link-text tlink">Menu</p>
+        </div>
+      </a>
+      <button class="header__burger-btn" id="burger-btn">
+        <span class="header__burger-line header__burger-line-1" id="burger-line-1"></span>
+        <span class="header__burger-line header__burger-line-2" id="burger-line-2"></span>
+      </button>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <section class="cafe-section">
+        <div class="cafe-section__video-wrap">
+          <video class="cafe-section__video" src="./assets/video/coffee-video-720.mp4" autoplay loop muted
+            poster="./assets/img/img-hero.jpg"></video>
+        </div>
+        <h2 class="cafe-section__invite-text h1"><span class="h1 accent taccent">Enjoy</span> premium coffee at our
+          charming cafe</h2>
+        <p class="cafe-section__description tmedium">
+          With its inviting atmosphere and delicious coffee options, the Coffee House Resource is a popular destination
+          for coffee lovers and those seeking a warm and inviting space to enjoy their
+          favorite beverage.
+        </p>
+        <a class="cafe-section__menu-link" href="./menu.html">
+          <span class="tlink menu-btn-text">Menu</span>
+          <span class="menu-btn-img"></span>
+        </a>
+      </section>
+      <section class="favorite" id="favorite">
+        <h2 class="favorite_h h2">Choose your <span class="h2 accent taccent">favorite</span> coffee</h2>
+        <div class="slider">
+          <div class="slider__view" id="slider-view">
+            <div class="slider__carousel" id="slider-carousel">
+              <article class="slider__slide">
+                <img src="./assets/img/slider/coffee-slider-1.png" alt="S’mores Frappuccino foto" class="slide__image">
+                <h3 class="slide__title h3">S’mores Frappuccino</h3>
+                <p class="slide__description tmedium">This new drink takes an espresso and mixes it with brown sugar and
+                  cinnamon before being topped with oat milk.</p>
+                <p class="slide__price h3">$5.50</p>
+              </article>
+              <article class="slider__slide">
+                <img src="./assets/img/slider/coffee-slider-2.png" alt="Caramel Macchiato foto" class="slide__image">
+                <h3 class="slide__title h3">Caramel Macchiato</h3>
+                <p class="slide__description tmedium">Fragrant and unique classic espresso with rich caramel-peanut
+                  syrup, with cream under whipped thick foam.</p>
+                <p class="slide__price h3">$5.00</p>
+              </article>
+              <article class="slider__slide">
+                <img src="./assets/img/slider/coffee-slider-3.png" alt="Ice coffee foto" class="slide__image">
+                <h3 class="slide__title h3">Ice coffee</h3>
+                <p class="slide__description tmedium">A popular summer drink that tones and invigorates. Prepared from
+                  coffee, milk and ice.</p>
+                <p class="slide__price h3">$4.50</p>
+              </article>
+            </div>
+          </div>
+          <button class="slider__btn slider__btn_prev" id="slider-prev-btn"></button>
+          <button class="slider__btn slider__btn_next" id="slider-next-btn"></button>
+          <ul class="slider__bullets">
+            <li class="slider__bullet">
+              <span class="slider__bullet-progress slider__bullet_active"></span>
+            </li>
+            <li class="slider__bullet">
+              <span class="slider__bullet-progress"></span>
+            </li>
+            <li class="slider__bullet">
+              <span class="slider__bullet-progress"></span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <h1 class="about_title h2">
+          Resource is <span class="h2 accent taccent">the perfect and cozy place</span> where you can enjoy a variety of
+          hot beverages, <span class="small-space">relax</span>, catch up with friends, or get some work done.
+        </h1>
+        <div class="about__gallery">
+          <div class="about__inner-1">
+            <div class="about__img-container about__img-container_high">
+              <img class="about__img" src="./assets/img/about/about-1.jpg" alt="coffee girl">
+            </div>
+            <div class="about__img-container about__img-container_low hidden">
+              <img class="about__img" src="./assets/img/about/about-2.jpg" alt="coffee guy">
+            </div>
+          </div>
+          <div class="about__inner-2">
+            <div class="about__img-container about__img-container_low hidden">
+              <img class="about__img" src="./assets/img/about/about-3.jpg" alt="coffee cup">
+            </div>
+            <div class="about__img-container about__img-container_high">
+              <img class="about__img" src="./assets/img/about/about-4.jpg" alt="couple with coffee">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mobile-app" id="mobile-app">
+        <div class="mobile-app__download">
+          <h2 class="mobile-app__title h2"><span class="h2 accent taccent">Download</span> our apps to start ordering
+          </h2>
+          <p class="mobile-app__text tmedium">Download the Resource app today and experience the comfort of ordering
+            your favorite coffee from wherever you are</p>
+          <div class="mobile-app__links">
+            <a href="https://rs.school/" class="mobile-app__link" target="_blank">
+              <svg class="mobile-app__svg" width="36" height="36" viewBox="0 0 36 36" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g id="apple">
+                  <path
+                    d="M26.7073 18.6307C26.6704 14.6324 30.065 12.6872 30.2203 12.5966C28.2977 9.86366 25.3178 9.49026 24.2707 9.46048C21.7679 9.20369 19.3403 10.9206 18.0654 10.9206C16.765 10.9206 14.8017 9.48529 12.6858 9.52747C9.96293 9.56841 7.41566 11.1055 6.0186 13.4923C3.13542 18.359 5.28572 25.5108 8.04802 29.4446C9.42981 31.3712 11.0444 33.5223 13.1578 33.4466C15.2254 33.3635 15.9978 32.1614 18.4929 32.1614C20.9651 32.1614 21.6903 33.4466 23.8457 33.3983C26.0647 33.3635 27.4618 31.463 28.7952 29.519C30.392 27.3108 31.0333 25.1362 31.0588 25.0245C31.0066 25.0071 26.7493 23.4229 26.7073 18.6307Z" />
+                  <path
+                    d="M22.6357 6.87268C23.7477 5.51675 24.5086 3.67205 24.2974 1.80005C22.6879 1.86952 20.675 2.88554 19.5159 4.21169C18.4903 5.38029 17.5742 7.29571 17.8109 9.097C19.6189 9.2285 21.4753 8.20752 22.6357 6.87268Z" />
+                </g>
+              </svg>
+              <span class="tcaption">Available on the</span>
+              <span class="tlink">App Store</span>
+            </a>
+            <a href="https://rs.school/" class="mobile-app__link" target="_blank">
+              <svg class="mobile-app__svg" width="36" height="36" viewBox="0 0 36 36" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g id="gplay">
+                  <path
+                    d="M3.7558 3.20297C3.39335 3.57289 3.18359 4.14884 3.18359 4.89471V31.4994C3.18359 32.2453 3.39335 32.8212 3.7558 33.1911L3.84525 33.2723L19.1359 18.37V18.0181L3.84525 3.11575L3.7558 3.20297Z" />
+                  <path
+                    d="M26.0776 23.34L20.9863 18.37V18.0181L26.0837 13.0482L26.1979 13.1128L32.2345 16.4617C33.9573 17.4121 33.9573 18.976 32.2345 19.9324L26.1979 23.2753L26.0776 23.34Z" />
+                  <path
+                    d="M25.2733 24.2007L20.0617 19.1195L4.68164 34.1166C5.25384 34.7031 6.18695 34.7737 7.24807 34.1873L25.2733 24.2007Z" />
+                  <path
+                    d="M25.2733 12.1876L7.24807 2.20103C6.18695 1.62058 5.25384 1.69125 4.68164 2.27772L20.0617 17.2688L25.2733 12.1876Z" />
+                </g>
+              </svg>
+              <span class="tcaption">Available on</span>
+              <span class="tlink">Google Play</span>
+            </a>
+          </div>
+        </div>
+        <div class="mobile-app__screen"></div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer container" id="footer">
+    <div class="footer__social">
+      <p class="footer__text-1 h2">Sip, Savor, Smile. <span class="footer__text-2 h2 accent">It’s coffee time!</span>
+      </p>
+      <!-- <p class="footer__text-1 h2">Sip, Savor, Smile.</p> -->
+      <!-- <p class="footer__text-2 h2 accent">It’s coffee time!</p> -->
+      <ul class="footer__social-list">
+        <li class="footer__social-item">
+          <a class="footer__social-link" href="https://twitter.com/" target="_blank">
+            <svg class="footer__social-svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g id="twitter">
+                <path
+                  d="M23 3.01006C23 3.01006 20.9821 4.20217 19.86 4.54006C19.2577 3.84757 18.4573 3.35675 17.567 3.13398C16.6767 2.91122 15.7395 2.96725 14.8821 3.29451C14.0247 3.62177 13.2884 4.20446 12.773 4.96377C12.2575 5.72309 11.9877 6.62239 12 7.54006V8.54006C10.2426 8.58562 8.50127 8.19587 6.93101 7.4055C5.36074 6.61513 4.01032 5.44869 3 4.01006C3 4.01006 -1 13.0101 8 17.0101C5.94053 18.408 3.48716 19.109 1 19.0101C10 24.0101 21 19.0101 21 7.51006C20.9991 7.23151 20.9723 6.95365 20.92 6.68006C21.9406 5.67355 23 3.01006 23 3.01006Z"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </g>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a class="footer__social-link" href="https://www.instagram.com/" target="_blank">
+            <svg class="footer__social-svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g id="instagram">
+                <path
+                  d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                  stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z" />
+                <path d="M17.5 6.51L17.51 6.49889" stroke-linecap="round" stroke-linejoin="round" />
+              </g>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a class="footer__social-link" href="https://www.facebook.com/" target="_blank">
+            <svg class="footer__social-svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g id="facebook">
+                <path
+                  d="M17 2H14C12.6739 2 11.4021 2.52678 10.4645 3.46447C9.52678 4.40215 9 5.67392 9 7V10H6V14H9V22H13V14H16L17 10H13V7C13 6.73478 13.1054 6.48043 13.2929 6.29289C13.4804 6.10536 13.7348 6 14 6H17V2Z"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </g>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__contacts">
+      <h3 class="footer__title h3">Contact us</h3>
+      <a class="footer__contacts-item tlink underline underline_light"
+        href="https://www.google.by/maps/place/%D0%AD%D0%BB%D1%8C+%D0%91%D1%83%D1%80%D1%80%D0%B8%D1%82%D0%BE/@53.9253311,27.5928768,19.65z/data=!4m6!3m5!1s0x46dbcfb569c15c99:0xf4e4a1e902688611!8m2!3d53.9253161!4d27.5927103!16s%2Fg%2F11mb0rgdtj?entry=ttu"
+        target="_blank">
+        <img src="./assets/svg/footer/pin-alt.svg" alt="place icon" width="20" height="20">
+        <span>8558 Green Rd., LA</span>
+      </a>
+      <a class="footer__contacts-item tlink underline underline_light" href="tel:+16035550123">
+        <img src="./assets/svg/footer/phone.svg" alt="phone icon" width="20" height="20">
+        <span>+1 (603) 555-0123</span>
+      </a>
+      <p class="footer__contacts-item tlink">
+        <img src="./assets/svg/footer/clock.svg" alt="opening hours icon" width="20" height="20">
+        <span>Mon-Sat: 9:00 AM – 23:00 PM</span>
+      </p>
+    </div>
+  </footer>
+
+  <script type="module" src="./js/home.js"></script>
+</body>
+
+</html>
